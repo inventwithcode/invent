@@ -4,6 +4,8 @@
 <head>
   <meta charset="utf-8">
   <title>Dean Winchester</title>
+  <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+  <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" href="favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,6 +14,7 @@
 </head>
 
 <body>
+  
   <div class="top-container">
     <img class="python" src="images/binary-code.png" alt="cloud-img">
     <h1>Invent with code</h1>
@@ -22,6 +25,12 @@
   <div class="middle-container">
     <div class="profile">
       <img class="profile-picture" src="images/profile.png" alt="dean-winchester">
+      <div class="console">
+      <py-repl id="my-repl"  auto-generate="true">#Python Playground
+# You can also import modules
+# Start writing your code here!
+      </py-repl>
+    </div>
       <h2>Hello.</h2>
       <p class="intro">I am a python programmer, and I love Artificial Intelligence and Machine Learning</p>
     </div>
@@ -43,7 +52,7 @@
     <div class="contact-me">
       <h2>Get In Touch</h2>
       <h3 class="get-in-touch">I am ready to get hired as a software developer or any position involving programming in python, C++, C#, JAVA, or JavaScript.</h3>
-      <p>Feel free to contact me anytime you want.</p>
+      <p class="feel-free-to-contact-me">Feel free to contact me anytime you want.</p>
       <a class="btn" href="mailto:inventwithcoding@gmail.com">CONTACT ME</a>
     </div>
   </div>

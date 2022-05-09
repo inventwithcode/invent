@@ -38,11 +38,12 @@ hr {
 }
 
 .copyright {
-  margin: auto 0;
-  margin-top: 1rem;
+  width: 25%;
+  margin: 1rem auto 0 auto;
 }
 
 .mountain {
+  margin: auto;
   padding-top: 3rem;
   width: 40%;
 }
@@ -66,6 +67,10 @@ hr {
   top: 400px;
   width: 8%;
 }
+.feel-free-to-contact-me{
+  width: 50%;
+  margin: 1.3rem auto;
+}
 
 .middle-container {
   background-color: #EFEFEF;
@@ -80,7 +85,7 @@ hr {
 }
 
 .profile-picture {
-  margin-top: 1rem;
+  margin: 1rem auto;
   width: 15%;
 }
 
@@ -146,4 +151,7 @@ hr {
   background-image: -o-linear-gradient(top, #8D8DAA, #66BFBF);
   background-image: linear-gradient(to bottom, #8D8DAA, #66BFBF);
   text-decoration: none;
+}
+.console{
+  text-align: left;
 }
