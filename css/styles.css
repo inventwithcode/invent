@@ -33,6 +33,7 @@ hr {
   border-style: dotted;
   border-top: none;
   width: 2%;
+  margin: auto;
   border-width: 0.5rem;
   color: #B7CADB;
 }
